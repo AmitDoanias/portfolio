@@ -31,7 +31,7 @@ export default function Navbar({ isDark, toggleDark }) {
           className="text-lg font-bold tracking-tight text-gray-900 dark:text-white
             hover:text-violet-600 dark:hover:text-violet-300 transition-colors duration-200"
         >
-          Amit<span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-indigo-500 dark:from-violet-400 dark:to-indigo-400">.</span>
+          Amit Doanias<span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-indigo-500 dark:from-violet-400 dark:to-indigo-400">.</span>
         </a>
 
         {/* Desktop Nav */}
