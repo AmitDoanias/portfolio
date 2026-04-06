@@ -36,8 +36,8 @@ const contactLinks = [
 ]
 
 const cvLinks = [
-  { label: 'Download CV (English)', href: '#', lang: 'EN' },
-  { label: 'הורד קורות חיים (עברית)', href: '#', lang: 'HE' },
+  { label: 'Download CV (English)', href: '/Amit_Doanias_CV_EN.pdf', download: 'Amit_Doanias_CV.pdf', lang: 'EN' },
+  { label: 'הורד קורות חיים (עברית)', href: '/Amit_Doanias_CV_HE.pdf', download: 'עמית_דואניאס_קורות_חיים.pdf', lang: 'HE' },
 ]
 
 export default function Contact() {
@@ -87,7 +87,7 @@ export default function Contact() {
             <a
               key={cv.lang}
               href={cv.href}
-              download
+              download={cv.download}
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold
                 border-2 border-violet-500 dark:border-violet-500 text-violet-600 dark:text-violet-400
                 hover:bg-violet-600 hover:text-white dark:hover:bg-violet-600 dark:hover:text-white
