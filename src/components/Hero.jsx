@@ -73,8 +73,8 @@ function LightHero() {
 
         {/* Description */}
         <p className="mx-auto mb-10 mt-3 max-w-2xl px-6 text-sm text-gray-500 sm:px-6 md:max-w-3xl md:px-20 lg:text-base leading-relaxed">
-          Building modern web applications with clean code and great user experience.
-          Passionate about bridging design and technology.
+          Goal-oriented Computer Science graduate with a strong background in business management
+          and software architecture. Experienced in managing complex interfaces, characterizing technological requirements, and optimizing business processeses.
         </p>
 
         {/* CTA buttons */}
@@ -181,7 +181,8 @@ function DarkHero() {
       </p>
 
       <p className="text-base sm:text-lg max-w-xl mx-auto mb-10 leading-relaxed font-light tracking-wide text-white/40">
-        Building modern web applications with clean code and great user experience.
+        Goal-oriented Computer Science graduate with a strong background in business management
+        and software architecture. Experienced in managing complex interfaces, characterizing technological requirements, and optimizing business processes.
       </p>
 
       <div className="flex flex-wrap items-center justify-center gap-3">
