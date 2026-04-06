@@ -3,7 +3,7 @@ import {
   Terminal, Code2, Braces, Coffee,
   Monitor, Atom, Globe, Paintbrush, Wind,
   Server, Database, LayoutGrid, Users,
-  Cpu, Brain, Sparkles, Film, Bot,
+  Cpu, Brain, Sparkles, Film,
 } from 'lucide-react'
 
 const skillGroups = [
@@ -67,7 +67,6 @@ const skillGroups = [
       { name: 'Claude Code', Icon: Brain },
       { name: 'Gemini', Icon: Sparkles },
       { name: 'Kling', Icon: Film },
-      { name: 'Cursor', Icon: Bot },
     ],
   },
 ]
